@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07100d"/><stop offset="1" stop-color="#0d2b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#g)"/>
+  <circle cx="1120" cy="60" r="180" fill="#00d9a3" opacity="0.10"/>
+  <circle cx="120" cy="290" r="140" fill="#00d9a3" opacity="0.08"/>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#eef6f1">Hoshiyomi API</text>
+  <text x="80" y="185" font-family="Arial, sans-serif" font-size="30" fill="#00d9a3">Short Drama Streaming REST API</text>
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="22" fill="#9fb5ab">34 Platforms &#183; DramaBox &#183; DramaWave &#183; WeTV &#183; ReelShort &#183; GoodShort</text>
+  <text x="80" y="272" font-family="Arial, sans-serif" font-size="22" fill="#9fb5ab">HLS 1080p Playback &amp; Download &#183; Interactive Docs &#183; One API Key</text>
+</svg>

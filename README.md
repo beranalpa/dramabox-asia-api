@@ -1,5 +1,7 @@
 <div align="center">
 
+![Hoshiyomi API — short drama streaming REST API for DramaBox, DramaWave, WeTV & 34 platforms](banner.svg)
+
 # 🎬 Hoshiyomi API
 
 ### Short Drama Streaming REST API — 34 Platforms, One API Key
@@ -277,6 +279,31 @@ each platform page in the docs lists its supported languages.
 | ⭐ **API v2 (MAIN)** | [apiv2.hoshiyomi.my.id/docs](https://apiv2.hoshiyomi.my.id/docs) |
 | 🇲 API v1 (Starter) | [api.hoshiyomi.my.id/docs](https://api.hoshiyomi.my.id/docs) |
 | 👑 **API v3 (Hosting)** | [apiv3.hoshiyomi.my.id/docs](https://apiv3.hoshiyomi.my.id/docs) (DramaWave) · [apiv3.hoshiyomi.my.id/docs/goodshort](https://apiv3.hoshiyomi.my.id/docs/goodshort) (GoodShort) |
+
+---
+
+## ❓ FAQ
+
+**What is the DramaBox API / short drama API?**
+A REST API that aggregates short drama streaming platforms (DramaBox, DramaWave, WeTV, ReelShort,
+GoodShort and 29 more) behind a single API key — search, trending, detail, episode lists and
+playable HLS streams.
+
+**Can I watch or download short dramas with this API?**
+Yes. Every stream endpoint returns a standard HLS playlist (`m3u8`) that plays in any player
+(VLC, mpv, hls.js, ExoPlayer) and downloads with `ffmpeg -c copy` — up to 1080p.
+
+**How do I get an API key for short drama streaming?**
+Claim a Trial key automatically via the [@dramaboxplusbot](https://t.me/dramaboxplusbot) Telegram bot,
+or pick a paid plan (Starter / Pro). For API v3 you can also **host your own VIP account**.
+
+**Does it support multi-language drama catalogs?**
+Yes — `lang` per request: Indonesian (`in`/`id`), English (`en`), Chinese (`zh`), Spanish (`es`),
+Portuguese (`pt`) and more, depending on the platform.
+
+**Is there a free short drama API tier?**
+A Trial tier exists (limited RPM & daily quota). Paid tiers unlock API v2 with 34 platforms and
+higher limits.
 
 ---
 
